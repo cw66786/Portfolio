@@ -1,7 +1,7 @@
 <?php
 
 
-    $_POST['submit'];
+  
 
     $name =$_POST['name'];
 
