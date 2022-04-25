@@ -698,7 +698,7 @@ left: -55%;
 
 /* universal mobile rules */
 
-@media screen and (max-width: 718px) {
+@media screen and (max-device-width: 718px) {
   
   html{
   scroll-padding-top: 0;
