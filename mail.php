@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
     $message =$_POST['message'];
 
 
-$mailto = "cw66786@gmail.com";
+$mailto = "craig@craigwilson1.com";
 $header = "From: ".$emailFrom;
 $txt = "Portfolio email from ".$name.".\n\n".$message;
 
