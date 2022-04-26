@@ -673,28 +673,6 @@ left: -55%;
 
 /* mobile screen adjustments */
 
-/* landscape specific rules for mobile */
-
-@media  (max-width: 854px) and(max-height: 480px) and (orientation: landscape) {
-.navbar {
-    min-height: 75px;
-  }
-  .navbar-links {
-   clip-path: circle(50px at 95% -30%);
-    -webkit-clip-path:  circle(50px at 95% -30%);
- 
-  }
-    .navbar-links.open {
-    clip-path: circle(750px at 95% -20%);
-    -webkit-clip-path:  circle(750px at 95% -20%);
-      
-   
-  }
-     .navbar-links a {
-   padding: 2px 2px;
- 
-  }
-}
 
 /* universal mobile rules */
 
@@ -887,3 +865,27 @@ height: 85vh;
     }
     
   }
+
+
+ /* landscape specific rules for mobile */
+
+@media  (max-width: 854px) and(max-height: 480px) and (orientation: landscape) {
+.navbar {
+    min-height: 75px;
+  }
+  .navbar-links {
+   clip-path: circle(50px at 95% -30%);
+    -webkit-clip-path:  circle(50px at 95% -30%);
+ 
+  }
+    .navbar-links.open {
+    clip-path: circle(750px at 95% -20%);
+    -webkit-clip-path:  circle(750px at 95% -20%);
+      
+   
+  }
+     .navbar-links a {
+   padding: 2px 2px;
+ 
+  }
+}
