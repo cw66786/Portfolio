@@ -82,11 +82,13 @@ scrollToTop.addEventListener('click', () => {
 });
 
 //scroll to top button appear after welcome
-
+if( window.matchMedia('only screen and (max-device-width: 718px)').matches === false) {
 
 window.addEventListener('scroll', () => {
+
+
   
-  if(window.scrollY < 115 ) {
+  if(window.scrollY < 115) {
     
     scrollToTop.style.display = 'none';
     
@@ -96,3 +98,4 @@ window.addEventListener('scroll', () => {
   }
 });
 
+}
