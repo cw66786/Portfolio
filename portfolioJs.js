@@ -99,3 +99,24 @@ window.addEventListener('scroll', () => {
 });
 
 }
+
+
+//form validation on submit 
+
+function validateForm() {
+
+  let name = document.forms["form"]["name"].value;
+
+  let email = document.forms["form"]["email"].value;
+
+  let emailCheck = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+console.log(name,email);
+
+  if (name == "" ) {
+    alert("Name must be filled out and contain only letters");
+    return false;
+  } else if (!email.match(emailCheck)) {
+    alert("Email must be valid email address ex: email@website.com");
+    return false;
+  }
+} 
